@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone Galaxy X",
+      "category": "Électronique",
+      "price": 299.99,
+      "popularity": 4.5,
+      "image": "images/smartphone-galaxy-x.jpg",
+      "description": "Un smartphone puissant avec un écran AMOLED et une batterie longue durée."
+    },
+    {
+      "id": 2,
+      "name": "Casque Bluetooth",
+      "category": "Électronique",
+      "price": 49.99,
+      "popularity": 4.2,
+      "image": "images/casque-bluetooth.jpg",
+      "description": "Casque sans fil avec réduction de bruit et qualité sonore exceptionnelle."
+    },
+    {
+      "id": 3,
+      "name": "Sac à main en cuir",
+      "category": "Mode",
+      "price": 79.99,
+      "popularity": 4.7,
+      "image": "images/sac-main-cuir.jpg",
+      "description": "Sac élégant en cuir véritable pour un style intemporel."
+    },
+    {
+      "id": 4,
+      "name": "Table basse en bois",
+      "category": "Maison",
+      "price": 119.99,
+      "popularity": 4.3,
+      "image": "images/table-basse-bois.jpg",
+      "description": "Table basse en bois massif, idéale pour un salon moderne."
+    },
+    {
+      "id": 5,
+      "name": "Montre sportive",
+      "category": "Électronique",
+      "price": 199.99,
+      "popularity": 4.6,
+      "image": "images/montre-sportive.jpg",
+      "description": "Montre connectée avec suivi d'activité et étanchéité."
+    },
+    {
+      "id": 6,
+      "name": "Lampadaire moderne",
+      "category": "Maison",
+      "price": 89.99,
+      "popularity": 4.0,
+      "image": "images/lampadaire-moderne.jpg",
+      "description": "Lampadaire avec design minimaliste pour éclairer votre intérieur."
+    },
+    {
+      "id": 7,
+      "name": "T-shirt basique",
+      "category": "Mode",
+      "price": 14.99,
+      "popularity": 3.9,
+      "image": "images/tshirt-basique.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Électronique",
+      "description": "Découvrez nos derniers produits électroniques et high-tech."
+    },
+    {
+      "id": 2,
+      "name": "Maison",
+      "description": "Articles de décoration et d'ameublement pour votre intérieur."
+    },
+    {
+      "id": 3,
+      "name": "Mode",
+      "description": "Collection de vêtements et d'accessoires tendances."
+    }
+  ]
+}
