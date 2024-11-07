@@ -6,79 +6,110 @@
   <title>Shopezone</title>
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/all.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Shopezone</a>
-        <div class="navbar-collapse justify-content-center">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-            <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
-          </ul>
-        </div>
-        <div class="navbar-icons d-flex">
-          <a href="cart.html" class="nav-link"><i class="fas fa-shopping-cart"></i></a>
-          <a href="favorites.html" class="nav-link"><i class="fas fa-heart"></i></a>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <section id="hero" class="d-flex align-items-center justify-content-center">
-    <img src="assets/images/hero-section.jpg" alt="Hero Image" class="img-fluid w-100">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="logo" href="./index.html">ShopZone</a>
+                <div class="collapse navbar-collapse justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="./index.html">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./assets/pages/Produit.html">Produits</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./assets/pages/Produit.html">Catégories</a></li>
+                    </ul>
+                </div>
+                <div class="d-flex">
+                    <a href="./assets/pages/favorites.html" class="icon mx-3"><i class="fas fa-heart"></i></a>
+                    <a href="assets/pages/panier.html" class="icon"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+  <section id="hero">
+    <div class="container my-5">
+      <h1>Bienvenue sur notre boutique en ligne</h1>
+      <p>Découvrez nos produits et profitez de nos offres exclusives.</p>
+  </div>
   </section>
-
-  <section id="popular-products" class="py-5">
+  <section class="featured-products my-5">
     <div class="container">
-      <h2 class="text-center mb-4">Popular Products</h2>
-      <div class="row">
+      <h2 class="text-center mb-4">Produits</h2>
+    <div class="row">
         <div class="col-md-4">
+            <div class="card">
+                <img src="./assets/images/iphone-blue.jpeg" class="card-img-top" alt="Product 1">
+                <div class="card-body">
+                    <h5 class="card-title">Iphone</h5>
+                    <p class="card-text">50 Dh</p>
+                    <a href="#" class="btn btn-primary">Détails</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="./assets/images/Porte-clees.jpeg" class="card-img-top" alt="Product 2">
+                <div class="card-body">
+                    <h5 class="card-title">Iphone</h5>
+                    <p class="card-text">50 dh</p>
+                    <a href="#" class="btn btn-primary">Détails</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="./assets/images/Pencil-tablet.jpeg" class="card-img-top" alt="Product 3">
+                <div class="card-body">
+                    <h5 class="card-title">Iphone</h5>
+                    <p class="card-text">50 dh</p>
+                    <a href="#" class="btn btn-primary">Détails</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<section class="categories my-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Catégories</h2>
+  <div class="row">
+      <div class="col-md-4">
           <div class="card">
-            <img src="assets/images/product1.jpg" class="card-img-top" alt="Product 1">
-            <div class="card-body text-center">
-              <h5 class="card-title">Product Name</h5>
-              <p class="card-text">$29.99</p>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
-            </div>
+              <img src="category1.jpg" class="card-img-top" alt="Category 1">
+              <div class="card-body">
+                  <h5 class="card-title">Maison</h5>
+                  <a href="products.html" class="btn btn-primary">Explorer</a>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
-  </section>
-
-  <section id="categories" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center mb-4">Categories</h2>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="card text-center">
-            <img src="assets/images/category1.jpg" class="card-img-top" alt="Category 1">
-            <div class="card-body">
-              <h5 class="card-title">Category Name</h5>
-              <a href="#" class="btn btn-outline-dark">Shop Now</a>
-            </div>
+      <div class="col-md-4">
+          <div class="card">
+              <img src="category2.jpg" class="card-img-top" alt="Category 2">
+              <div class="card-body">
+                  <h5 class="card-title">Électronique</h5>
+                  <a href="products.html" class="btn btn-primary">Explorer</a>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
-  </section>
-
-  <footer class="footer bg-dark text-white py-4">
-    <div class="container text-center">
-      <p class="mb-0">© 2024 Shopezone | <a href="./assets/pages/About.html" class="text-white">About Us</a></p>
-      <ul class="footer-social list-inline mt-2">
-        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f text-white"></i></a></li>
-        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter text-white"></i></a></li>
-        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram text-white"></i></a></li>
-      </ul>
-    </div>
-  </footer>
-
+      <div class="col-md-4">
+          <div class="card">
+              <img src="category3.jpg" class="card-img-top" alt="Category 3">
+              <div class="card-body">
+                  <h5 class="card-title">Makeup</h5>
+                  <a href="products.html" class="btn btn-primary">Explorer</a>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+  
+</section>
+  <footer class="bg-light text-center py-4">
+    <p>&copy; 2024 Shopezone. Tous droits réservés.</p>
+ </footer>
+  <script src="assets/js/script.js"></script>
   <script src="assets/js/bootstrap.js"></script>
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 </html>
