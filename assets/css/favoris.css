@@ -42,3 +42,9 @@
   font-size: 0.9rem;
   margin-top: 5px;
 }
+.card button {
+  border: none;
+  background-color: #fff;
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+}

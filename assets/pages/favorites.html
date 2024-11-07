@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="../css/all.css">
     <link rel="stylesheet" href="../css/style.css">
-     <link rel="stylesheet" href="../css/favoris.css">
+    <link rel="stylesheet" href="../css/favoris.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
@@ -38,12 +38,12 @@
             <!-- Favorite Item -->
             <div class="col-md-4 col-lg-3 mb-4">
                 <div class="card favorite-card">
-                    <img src="./assets/images/iphone-blue.jpeg" class="card-img-top" alt="Product">
+                    <img src="../images/iphone-blue.jpeg" class="card-img-top" alt="Product 1">
                     <div class="card-body text-center">
                         <h5 class="card-title">iPhone</h5>
                         <p class="card-text">50 Dh</p>
-                        <a href="#" class="btn btn-primary btn-sm mb-2">Détails</a>
-                        <button class="btn btn-outline-danger btn-sm"><i class="fas fa-heart-broken"></i> Retirer</button>
+                        <a href="#" class="btn btn-primary btn-sm mb-2" onclick="nextSection(3)">Détails</a>
+                        <button class="btn btn-outline-danger btn-sm" onclick="delet"><i class="fas fa-heart-broken"></i> Retirer</button>
                     </div>
                 </div>
             </div>
@@ -54,12 +54,67 @@
                     <div class="card-body text-center">
                         <h5 class="card-title">Porte-Clés</h5>
                         <p class="card-text">30 Dh</p>
-                        <a href="#" class="btn btn-primary btn-sm mb-2">Détails</a>
-                        <button class="btn btn-outline-danger btn-sm"><i class="fas fa-heart-broken"></i> Retirer</button>
+                        <a href="#" class="btn btn-primary btn-sm mb-2" onclick="nextSection(3)">Détails</a>
+                        <button class="btn btn-outline-danger btn-sm" onclick="delet"><i class="fas fa-heart-broken"></i> Retirer</button>
+                    </div>
                     </div>
                 </div>
             </div>
             <!-- Additional items as needed -->
+        </div>
+    </div>
+    <!-- Vous Aimerez Aussi -->
+    <div class="choix">
+        <h2 class="text-center mb-5">Vous Aimerez Aussi</h2>
+        <div class="row m-4">
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card product-card">
+                    <img src="../images/iphone-blue.jpeg" class="card-img-top" alt="Product 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">iPhone</h5>
+                        <p class="card-text">50 Dh</p>
+                        <a href="#" class="btn btn-primary col-7">Détails</a>
+                        <button type="button" onclick="add"><i class="fa-regular fa-heart"></i></button>
+                        <a href="#" class="icon"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card product-card">
+                    <img src="../images/Pencil-tablet.jpeg" class="card-img-top" alt="Product 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">iPhone</h5>
+                        <p class="card-text">50 Dh</p>
+                        <a href="#" class="btn btn-primary col-7">Détails</a>
+                        <button type="button" onclick="add"><i class="fa-regular fa-heart"></i></button>
+                        <a href="#" class="icon"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card product-card">
+                    <img src="../images/Porte-clees.jpeg" class="card-img-top" alt="Product 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">iPhone</h5>
+                        <p class="card-text">50 Dh</p>
+                        <a href="#" class="btn btn-primary col-7">Détails</a>
+                        <button type="button" onclick="add"><i class="fa-regular fa-heart"></i></button>
+                        <a href="#" class="icon"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card product-card">
+                    <img src="../images/iphone-blue.jpeg" class="card-img-top" alt="Product 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">iPhone</h5>
+                        <p class="card-text">50 Dh</p>
+                        <a href="#" class="btn btn-primary col-7">Détails</a>
+                        <button type="button" onclick="add"><i class="fa-regular fa-heart"></i></button>
+                        <a href="#" class="icon"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -69,5 +124,7 @@
 </footer>
 
 <script src="../js/bootstrap.js"></script>
+<script src="../js/favorites.js"></script>
+
 </body>
 </html>
