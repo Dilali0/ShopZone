@@ -2,58 +2,74 @@
   "products": [
     {
       "id": 1,
-      "name": "Smartphone Galaxy X",
-      "category": "Électronique",
+      "name": "Soho-Coffee-Table.avif",
+      "category": "Maison",
       "price": 299.99,
-      "image": "images/smartphone-galaxy-x.jpg",
+      "image": "../images/Soho-Coffee-Table.avif",
       "description": "Un smartphone puissant avec un écran AMOLED et une batterie longue durée."
     },
     {
       "id": 2,
-      "name": "Casque Bluetooth",
-      "category": "Électronique",
+      "name": "side_table_natural",
+      "category": "Maison",
       "price": 49.99,
-      "image": "images/casque-bluetooth.jpg",
+      "image": "../images/at1890_nomad_side_table_natural_1_.webp",
       "description": "Casque sans fil avec réduction de bruit et qualité sonore exceptionnelle."
     },
     {
       "id": 3,
-      "name": "Sac à main en cuir",
-      "category": "Mode",
+      "name": "round-dining-table-6-seater",
+      "category": "Maison",
       "price": 79.99,
-      "image": "images/sac-main-cuir.jpg",
+      "image": "../images/round-dining-table-6-seater-1-1-1.jpg",
       "description": "Sac élégant en cuir véritable pour un style intemporel."
     },
     {
       "id": 4,
-      "name": "Table basse en bois",
+      "name": "Marble-Fruit-Bowl",
       "category": "Maison",
-      "price": 119.99,
-      "image": "images/table-basse-bois.jpg",
-      "description": "Table basse en bois massif, idéale pour un salon moderne."
-    },
-    {
-      "id": 5,
-      "name": "Montre sportive",
-      "category": "Électronique",
-      "price": 199.99,
-      "image": "images/montre-sportive.jpg",
+      "price": 19.99,
+      "image": "../images/Creative-Home-White-Marble-Fruit-Bowl-on-Pedestal.webp",
       "description": "Montre connectée avec suivi d'activité et étanchéité."
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Lampadaire moderne",
       "category": "Maison",
       "price": 89.99,
-      "image": "images/lampadaire-moderne.jpg",
+      "image": "../images/61l-5HR69SL.jpg",
       "description": "Lampadaire avec design minimaliste pour éclairer votre intérieur."
     },
     {
-      "id": 7,
-      "name": "T-shirt basique",
-      "category": "Mode",
+      "id": 6,
+      "name": " kitcheen",
+      "category": "Maison",
       "price": 14.99,
-      "image": "images/tshirt-basique.jpg",
+      "image": "../images/images.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 7,
+      "name": "black-glass-shelf-urbanmonk",
+      "category": "Maison",
+      "price": 29.99,
+      "image": "../images/bathroom-9-c-9-inch-black-glass-shelf-urbanmonk-original-imagcy3hhvzgqwuc.webp",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 8,
+      "name": "Led-mirror-banner",
+      "category": "Maison",
+      "price": 149.99,
+      "image": "../images/Led-mirror-banner-300x300.webp",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 9,
+      "name": "gerber-toilets",
+      "category": "Maison",
+      "price": 49.99,
+      "image": "../images/gerber-toilets-featured_collections-logan_sqaure.avif",
       "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
     }
   ],

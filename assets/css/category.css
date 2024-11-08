@@ -1,0 +1,56 @@
+.search-bar{
+    width: 50%;
+    border-radius: 50px;
+    background-color: white;
+    margin-inline: auto;
+
+}
+#dropdown{
+    position: relative;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color:rgb(253, 217, 174);
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    padding: 12px 12px 12px 12px;
+}
+#list.show{
+    max-height: 100px;
+}
+#dropdown option{
+    background-color: white;
+}
+#dropdown option:hover{
+    margin-left: 0.5rem;
+    color: rgb(253, 217, 174);
+}
+.search-box{
+    padding-right: 1rem;
+    width: 100%;
+    color: rgb(253, 217, 174);
+}
+.search-box input{
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(253, 217, 174);
+    border: 0;
+    outline: 0;
+}
+.search-box i{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.search-box input::placeholder{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(253, 217, 174);
+}
+.card img{
+    height: 300px;
+}
+#category-hero{
+    background-image: url(../images/phil-5i0GnoTTjSE-unsplash.jpg);
+}
