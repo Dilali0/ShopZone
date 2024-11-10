@@ -3,7 +3,7 @@
     border-radius: 50px;
     background-color: white;
     margin-inline: auto;
-
+    padding-left: 5px;
 }
 #dropdown{
     position: relative;
