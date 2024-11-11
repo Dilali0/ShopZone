@@ -9,61 +9,40 @@ background-image: url(../images/bgproducts.jpg) ;
   border-radius: 50px;
   background-color: white;
   margin-inline: auto;
+  padding-left: 5px;
 
 }
-.dropdown{
+#dropdown{
   position: relative;
-  width: 280px;
+  width: 150px;
   border-radius: 50px;
   border: 1px solid white;
-  background-color:rgb(104, 102, 99);
+  background-color:rgb(253, 217, 174);
   box-shadow: var(--shadow);
   cursor: pointer;
-}
-.dropdown-text{
-  font-size: 1rem;
-  color: white;
-  padding: 1rem 1.5rem;
-}
-.dropdown-list{
-  position: absolute;
-  top: 4rem;
-  left: 0;
-  width: 100%;
-  border-radius: 15px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  list-style: none;
-  padding-left: 0;
-  transition: max-height 0.5s;
+  padding: 12px 12px 12px 12px;
 }
 #list.show{
   max-height: 100px;
 }
-.dropdown-list-items button{
-  font-size: 0.9rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: margin-left 0.2s ease, color 0.2s ease;
-  border: none;
+#dropdown option{
   background-color: white;
 }
-.dropdown-list-items button:hover{
+#dropdown option:hover{
   margin-left: 0.5rem;
-  color: rgb(61, 58, 55);
+  color: rgb(253, 217, 174);
 }
 .search-box{
   padding-right: 1rem;
   width: 100%;
-  color: rgb(83, 79, 76);
+  color: rgb(253, 217, 174);
 }
 .search-box input{
   padding: 1rem;
   width: 100%;
   font-size: 1rem;
   font-weight: 500;
-  color: rgb(155, 150, 145);
+  color: rgb(255, 140, 0);
   border: 0;
   outline: 0;
 }
@@ -74,5 +53,9 @@ background-image: url(../images/bgproducts.jpg) ;
 .search-box input::placeholder{
   font-size: 1rem;
   font-weight: 500;
-  color: rgb(86, 81, 75);
-} 
+  color: rgb(253, 217, 174);
+}
+#sorting{
+  margin-bottom: 20px;
+  margin-left:40%;
+}

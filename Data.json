@@ -5,7 +5,7 @@
       "name": "Smartphone Galaxy X",
       "category": "Électronique",
       "price": 299.99,
-      "image": "images/smartphone-galaxy-x.jpg",
+      "image": "/assets/images/galaxy-X-samsung.jpg",
       "description": "Un smartphone puissant avec un écran AMOLED et une batterie longue durée."
     },
     {
@@ -13,15 +13,15 @@
       "name": "Casque Bluetooth",
       "category": "Électronique",
       "price": 49.99,
-      "image": "images/casque-bluetooth.jpg",
+      "image": "/assets/images/casque.webp",
       "description": "Casque sans fil avec réduction de bruit et qualité sonore exceptionnelle."
     },
     {
       "id": 3,
-      "name": "Sac à main en cuir",
+      "name": "Sac élégant",
       "category": "Mode",
       "price": 79.99,
-      "image": "images/sac-main-cuir.jpg",
+      "image": "/assets/images/sac-cuir.jpg",
       "description": "Sac élégant en cuir véritable pour un style intemporel."
     },
     {
@@ -29,7 +29,7 @@
       "name": "Table basse en bois",
       "category": "Maison",
       "price": 119.99,
-      "image": "images/table-basse-bois.jpg",
+      "image": "/assets/images/tablewood.jpg",
       "description": "Table basse en bois massif, idéale pour un salon moderne."
     },
     {
@@ -37,7 +37,7 @@
       "name": "Montre sportive",
       "category": "Électronique",
       "price": 199.99,
-      "image": "images/montre-sportive.jpg",
+      "image": "/assets/images/sport-watch.webp",
       "description": "Montre connectée avec suivi d'activité et étanchéité."
     },
     {
@@ -45,15 +45,15 @@
       "name": "Lampadaire moderne",
       "category": "Maison",
       "price": 89.99,
-      "image": "images/lampadaire-moderne.jpg",
+      "image": "/assets/images/moder-lamp.jpg",
       "description": "Lampadaire avec design minimaliste pour éclairer votre intérieur."
     },
     {
       "id": 7,
-      "name": "T-shirt basique",
+      "name": "T-shirt",
       "category": "Mode",
       "price": 14.99,
-      "image": "images/tshirt-basique.jpg",
+      "image": "/assets/images/t-shirt.webp",
       "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
     }
   ],

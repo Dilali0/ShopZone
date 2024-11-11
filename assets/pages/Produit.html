@@ -4,12 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Produits</title>
-    <link rel="stylesheet" href="../css/all.min.css" />
     <link rel="stylesheet" href="../css/all.css" />
     <link rel="stylesheet" href="../css/product.css">
     <link rel="stylesheet" href="../css/bootstrap.css" />
     <link rel="stylesheet" href="../css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
     <header>
@@ -52,9 +50,10 @@
       </div>
       <div class="search-bar d-flex align-items-center">
         <!-- dropdown start -->
-          <select name="sort" id="sort1">
-            <option value="prix">prix</option>
-            <option value="popularite">popularité</option>
+          <select name="catfilter" id="dropdown" >
+            <option value="maison">maison</option>
+            <option value="electronique">electronique</option>
+            <option value="mode">mode</option>
           </select>
          <!-- dopdown ends -->
          <!-- search box input start-->
@@ -69,88 +68,20 @@
 
     <section class="featured-products my-5">
       <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-lg-3 mb-4">
-            <div class="card product-card">
-                <div class="d-flex">
-                    <a href="./favorites.html" class="icon mx-3"
-                      ><i class="fas fa-heart"></i
-                    ></a>
-                    <a href="./panier.html" class="icon"
-                      ><i class="fas fa-shopping-cart"></i
-                    ></a>
-                  </div>
-              <img
-                src="../images/iphone-blue.jpeg"
-                class="card-img-top"
-                alt="Product 1"
-              />
-              
-              <div class="card-body text-center">
-                <h5 class="card-title">iPhone</h5>
-                <p class="card-text">50 Dh</p>
-                <a href="#" class="btn btn-primary">Détails</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-lg-3 mb-4">
-            <div class="card product-card">
-              <img
-                src="../images/Pencil-tablet.jpeg"
-                class="card-img-top"
-                alt="Product 2"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title">Porte-Clés</h5>
-                <p class="card-text">50 Dh</p>
-                <a href="#" class="btn btn-primary">Détails</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-3 mb-4">
-            <div class="card product-card">
-              <img
-                src="../images/Porte-clees.jpeg"
-                class="card-img-top"
-                alt="Product 2"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title">Porte-Clés</h5>
-                <p class="card-text">50 Dh</p>
-                <a href="#" class="btn btn-primary">Détails</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-3 mb-4">
-            <div class="card product-card">
-              <img
-                src="./assets/images/Porte-clees.jpeg"
-                class="card-img-top"
-                alt="Product 2"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title">Porte-Clés</h5>
-                <p class="card-text">50 Dh</p>
-                <a href="#" class="btn btn-primary">Détails</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-3 mb-4">
-            <div class="card product-card">
-              <img
-                src="./assets/images/Porte-clees.jpeg"
-                class="card-img-top"
-                alt="Product 2"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title">Porte-Clés</h5>
-                <p class="card-text">50 Dh</p>
-                <a href="#" class="btn btn-primary">Détails</a>
-              </div>
-            </div>
-          </div>
+        <div class="sorticon">
+          <select  name="sort" id="sorting" >
+            <option value="all">tout</option>
+            <option  id="price" value="price">prix </option>
+            <option id="pop" value="pop">popularité</option>
+  
+            </select>
         </div>
+    <div class="row" id="row1"> 
+
+
+
+        </div>
+        
       </div>
     </section>
     <footer class="bg-light text-center py-4">
@@ -158,6 +89,5 @@
     </footer>
 
     <script src="../js/products.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
   </body>
 </html>
