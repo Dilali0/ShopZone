@@ -71,6 +71,150 @@
       "price": 49.99,
       "image": "../images/gerber-toilets-featured_collections-logan_sqaure.avif",
       "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 10,
+      "name": "speed tester",
+      "category": "Électronique",
+      "price": 499.99,
+      "image": "../images/Capture d'écran 2024-11-06 215506.png",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 11,
+      "name": "Corpseed",
+      "category": "Électronique",
+      "price": 349.99,
+      "image": "../images/EPR_Registration_for_Sports_Equipment_with_Electric_or_Electronic_Components_Corpseed.webp",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 12,
+      "name": "fitnes",
+      "category": "Électronique",
+      "price": 49.99,
+      "image": "../images/Fitnees product electronique.png",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 13,
+      "name": "Air Fire",
+      "category": "Électronique",
+      "price": 49.99,
+      "image": "../images/air fire.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 14,
+      "name": "Panasonic NN-SN966S",
+      "category": "Électronique",
+      "price": 149.99,
+      "image": "../images/Panasonic NN-SN966S.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 15,
+      "name": "Blenders",
+      "category": "Électronique",
+      "price": 39.99,
+      "image": "../images/Blenders.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 16,
+      "name": "Imac",
+      "category": "Électronique",
+      "price": 999,
+      "image": "../images/mac-card-40-imac-202410.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 17,
+      "name": "iphone 16",
+      "category": "Électronique",
+      "price": 799,
+      "image": "../images/iphone-card-40-iphone16hero-202409.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 18,
+      "name": "Apple Watch Ultra 2",
+      "category": "Électronique",
+      "price": 49.99,
+      "image": "../images/watch-card-40-ultra2-202409.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 19,
+      "name": "Pantalons Jeans",
+      "category": "Mode",
+      "price": 29.99,
+      "image": "../images/download.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 20,
+      "name": "pantalon de jogging",
+      "category": "Mode",
+      "price": 22,
+      "image": "../images/pantalon-de-jogging-500-homme-bleu-marine.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 21,
+      "name": "Survetement",
+      "category": "Mode",
+      "price": 59.99,
+      "image": "../images/surv-101-600x600.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 22,
+      "name": "Monteaux",
+      "category": "Mode",
+      "price": 70,
+      "image": "../images/monteaux.png",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 23,
+      "name": "Manteaux parkas",
+      "category": "Mode",
+      "price": 50,
+      "image": "../images/Manteaux parkas.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 24,
+      "name": "Veste",
+      "category": "Mode",
+      "price": 49.99,
+      "image": "../images/Veste-homme-chic-600x600.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 25,
+      "name": "t-shirt",
+      "category": "Mode",
+      "price": 4,
+      "image": "../images/t-shirt black.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 26,
+      "name": "Custom T-shirt",
+      "category": "Mode",
+      "price": 20,
+      "image": "../images/Baby-Pink-T-shirt_599c6286-77e0-45aa-9ea3-ab92f4e2bea1.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 27,
+      "name": "Cusual t-shirt",
+      "category": "Mode",
+      "price": 120,
+      "image": "../images/71m9WF9C2lL._AC_SL1300_.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
     }
   ],
   "categories": [

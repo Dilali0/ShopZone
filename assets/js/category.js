@@ -1,7 +1,7 @@
 
 fetch('../../Data.json')
 .then((response) => response.json())
-.then((data) => displaycategories(data.products));
+.then((data) => displaycategories(data.products))
 
 function displaycategories(prods){
 const row = document.getElementById("row");
@@ -21,5 +21,6 @@ row.innerHTML += `
     `
 });
 }
+
 
 
