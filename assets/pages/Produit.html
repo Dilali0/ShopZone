@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Produits</title>
     <link rel="stylesheet" href="../css/all.css" />
-    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/product.css" />
     <link rel="stylesheet" href="../css/bootstrap.css" />
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <header>
@@ -49,39 +49,24 @@
         <p class="lead">Découvrez nos derniers produits de haute qualité.</p>
       </div>
       <div class="search-bar d-flex align-items-center">
-        <!-- dropdown start -->
-          <select name="catfilter" id="dropdown" >
-            <option value="maison">maison</option>
-            <option value="electronique">electronique</option>
-            <option value="mode">mode</option>
-          </select>
-         <!-- dopdown ends -->
-         <!-- search box input start-->
-          <div class="search-box d-flex align-items-center">
-            <input type="text" id="search-input" placeholder="search...">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-          <!-- search box input ends -->
-    </div>
-
+        <select name="sort" id="sorting">
+          <option value="all">tout</option>
+          <option id="price" value="prix">prix</option>
+          <option id="pop" value="pop">popularité</option>
+        </select>
+        <!-- search box input start-->
+        <div class="search-box d-flex align-items-center">
+          <input type="text" id="search-input lg-3" placeholder="search..." />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <!-- search box input ends -->
+      </div>
     </section>
 
     <section class="featured-products my-5">
       <div class="container">
-        <div class="sorticon">
-          <select  name="sort" id="sorting" >
-            <option value="all">tout</option>
-            <option  id="price" value="price">prix </option>
-            <option id="pop" value="pop">popularité</option>
-  
-            </select>
-        </div>
-    <div class="row" id="row1"> 
-
-
-
-        </div>
-        
+        <div class="sorticon"></div>
+        <div class="row" id="row1"></div>
       </div>
     </section>
     <footer class="bg-light text-center py-4">

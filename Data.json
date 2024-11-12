@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": 4,
       "name": "Smartphone Galaxy X",
       "category": "Électronique",
       "price": 299.99,
@@ -9,7 +9,7 @@
       "description": "Un smartphone puissant avec un écran AMOLED et une batterie longue durée."
     },
     {
-      "id": 2,
+      "id": 1,
       "name": "Casque Bluetooth",
       "category": "Électronique",
       "price": 49.99,
@@ -25,7 +25,7 @@
       "description": "Sac élégant en cuir véritable pour un style intemporel."
     },
     {
-      "id": 4,
+      "id": 6,
       "name": "Table basse en bois",
       "category": "Maison",
       "price": 119.99,
@@ -33,7 +33,7 @@
       "description": "Table basse en bois massif, idéale pour un salon moderne."
     },
     {
-      "id": 5,
+      "id": 8,
       "name": "Montre sportive",
       "category": "Électronique",
       "price": 199.99,
@@ -49,7 +49,7 @@
       "description": "Lampadaire avec design minimaliste pour éclairer votre intérieur."
     },
     {
-      "id": 7,
+      "id": 5,
       "name": "T-shirt",
       "category": "Mode",
       "price": 14.99,

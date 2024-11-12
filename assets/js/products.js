@@ -1,21 +1,38 @@
-// function sorting 
-var allsort = document.getElementById("sorting");
-var sortbyprice =document.getElementById("price") ;
-var sortbypopulation =document.getElementById("pop") ;
+async function getData(){
+    try{
+    const response = await fetch("../../Data.json");
+    const data = await response.json();
+    dataCard(data.products);
+    return data;
+    } catch(error){
+        console.error("error ther is no data to find", error);
+        return [];
+    }
+}
+getData()
+var sortData = document.getElementById("sorting");
+sortData.addEventListener("change", async () => {
+    await dataValue(sortData.value)
+})
+ async  function dataValue(choice){
+    let res =await getData();
+    let data = res.products;
+    if (choice === "prix"){
+     data.sort((a, b)=>a.price - b.price);
+     await dataCard(data);
+    }else if (choice === "pop"){
+        data.sort((a, b)=>a.id - b.id);
+        await dataCard(data);
+
+  }
+}
 
 
-
-fetch("../../Data.json")
-.then((response) => response.json())
-.then((data)=> cardstatus(data.products) );
-
- function cardstatus(products){ 
-
-    products.sort((a, b) => a.price-b.price);
-
-    const row1 = document.getElementById("row1");
-    products.map(ele=>{
-        row1.innerHTML += `            <div class="col-md-4 col-lg-3 mb-4" id="test">
+  async function dataCard(products){
+  let row1= document.getElementById("row1")
+  row1.innerHTML =''
+  products.map((ele)=>{
+    row1.innerHTML +=`            <div class="col-md-4 col-lg-3 mb-4" id="test">
             <div class="card product-card">
                 <div class="d-flex">
                     <a href="./favorites.html" class="icon mx-3"
@@ -38,12 +55,7 @@ fetch("../../Data.json")
               </div>
             </div>
           </div>`
-    })
-}
+  }) 
 
-// function sorted(){
-// const hey = document.getElementById("card-text1").value;
-// const sort1 = document.getElementById("test");
-// sort1.sort((a, b) => a.ele.price - b.ele.price);
- 
-
+  }
+  
