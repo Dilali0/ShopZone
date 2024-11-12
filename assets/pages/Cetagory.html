@@ -38,7 +38,8 @@
         <p class="lead">Explorez une variété de catégories pour trouver ce que vous recherchez.</p>
         <div class="search-bar d-flex align-items-center">
             <!-- dropdown start -->
-             <select name="catégories" id="dropdown">
+             <select name="catégories" id="dropdown" >
+                <option value="All">All</option>
                 <option value="Maison">Maison</option>
                 <option value="Électronique">Électronique</option>
                 <option value="Mode">Mode</option>
@@ -46,7 +47,7 @@
              <!-- dopdown ends -->
              <!-- search box input start-->
               <div class="search-box d-flex align-items-center">
-                <input type="text" id="search-input" placeholder="search...">
+                <input type="text" id="search-input" placeholder="search..." onkeyup="searchByName()">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </div>
               <!-- search box input ends -->
