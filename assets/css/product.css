@@ -1,0 +1,66 @@
+/* body sections */
+.coverpic1{
+background-size: cover;
+
+background-image: url(../images/bgproducts.jpg) ;
+}
+.search-bar{
+  width: 50%;
+  border-radius: 50px;
+  background-color: white;
+  margin-inline: auto;
+  padding-left: 5px;
+
+}
+#sorting{
+  position: relative;
+  width: 150px;
+  border-radius: 50px;
+  border: 1px solid white;
+  background-color:rgb(253, 217, 174);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  padding: 12px 12px 12px 12px;
+}
+#list.show{
+  max-height: 100px;
+}
+#sorting option{
+  background-color: white;
+}
+#dsorting option:hover{
+  margin-left: 0.5rem;
+  color: rgb(253, 217, 174);
+}
+.search-box{
+  padding-right: 1rem;
+  width: 100%;
+  color: rgb(253, 217, 174);
+}
+.search-box input{
+  padding: 1rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(255, 140, 0);
+  border: 0;
+  outline: 0;
+}
+.search-box i{
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.search-box input::placeholder{
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(253, 217, 174);
+}
+#spacep{
+  word-spacing: 8rem;
+  letter-spacing: .2rem;
+  color:black;
+  border-bottom: solid 1px;
+}
+#dec-bottom{
+  margin-left: 25%;
+}
