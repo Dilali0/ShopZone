@@ -55,3 +55,12 @@ background-image: url(../images/bgproducts.jpg) ;
   font-weight: 500;
   color: rgb(253, 217, 174);
 }
+#spacep{
+  word-spacing: 8rem;
+  letter-spacing: .2rem;
+  color:black;
+  border-bottom: solid 1px;
+}
+#dec-bottom{
+  margin-left: 25%;
+}

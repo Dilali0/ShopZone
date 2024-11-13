@@ -1,7 +1,10 @@
+let produits;
 async function getData(){
     try{
     const response = await fetch("../../Data.json");
     const data = await response.json();
+    // produits = data.products
+    // transfer(produits)
     dataCard(data.products);
     return data;
     } catch(error){
@@ -28,6 +31,8 @@ sortData.addEventListener("change", async () => {
 }
 
 
+  
+
   async function dataCard(products){
   let row1= document.getElementById("row1")
   row1.innerHTML =''
@@ -45,17 +50,38 @@ sortData.addEventListener("change", async () => {
               <img
                 src="${ele.image}"
                 class="card-img-top"
-                style ="height: 16rem";
+                style ="height:16rem";
                 alt="Product 1"
-              />
+              />_
               <div class="card-body text-center">
                 <h5 class="card-title">${ele.name}</h5>
                 <p class="card-text" id="card-text1" >${ele.price}$</p>
-                <a href="#" class="btn btn-primary"> Details</a>
+                <a href="./details.html" class="btn btn-primary" id="details" onclick="${transfer(ele.id)}" > Details  </a>
               </div>
             </div>
           </div>`
-  }) 
+  }
+) 
 
   }
+//   let array = []
+
+//   function transfer(id){
+//     console.log(id);
+    
+//     array.push(id)
+//     console.log(array);
+    
+//     localStorage.setItem("products",JSON.stringify(array))
+//     //   const array = produits.filter(produit => {
+//     //   if(produit.id === id)
+//     //   localStorage.setItem("products",JSON.stringify(produit))
+//     // });
+    
+//     // console.log(array)
+//     // // console.log(localStorage)
+//   }
+  
+// var click = document.getElementById("details").addEventListener
+
   
