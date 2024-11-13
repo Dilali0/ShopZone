@@ -24,19 +24,95 @@ body {
   max-width: 1200px;
   margin: auto;
 }
+
 .gradient-text {
-   background: linear-gradient(90deg, #00aaff, #ff66cc, #ffbb66);
+  background: linear-gradient(90deg, #00aaff, #ff66cc, #ffbb66);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
 }
+
+/* Categories Section */
+.categories {
+  padding: 60px 0;
+  background-color: #f5f5f5;
+}
+
+.categories h2 {
+  font-size: 2rem;
+  color: var(--TextColor);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.categories .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-card {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+.category-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover img {
+  transform: scale(1.1);
+}
+
+.category-card .card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.category-card .card-title {
+  font-size: 1.5rem;
+  color: var(--TextColor);
+  font-weight: 600;
+}
+
+.category-card .btn-primary {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: var(--SColor);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.category-card .btn-primary:hover {
+  background-color: #005bb5;
+}
+
 /* Navbar */
-.navbar { 
+.navbar {
   background-color: var(--PColor);
   border-bottom: 1px solid #e0e0e0;
   padding: 10px 20px;
-  position: relative; 
+  position: relative;
 }
 
 .navbar .logo {
@@ -60,17 +136,17 @@ body {
   color: var(--TextColor);
   margin-right: 15px;
   transition: color 0.3s;
-  position: relative; 
+  position: relative;
 }
 
 .cart-count {
   position: absolute;
-  top: -5px; 
+  top: -5px;
   right: -10px;
   font-size: 0.75em;
   padding: 3px 7px;
   color: white;
-  background-color: var(--SColor); 
+  background-color: var(--SColor);
   border-radius: 50%;
 }
 
@@ -89,7 +165,6 @@ body {
   margin-bottom: 10px;
 }
 
-
 .hero-text p {
   color: var(--TextColor);
   font-size: 1.2rem;
@@ -98,7 +173,7 @@ body {
 /* Product Card */
 .product-card {
   width: 100%;
-  height: 350px; 
+  height: 350px;
   border: none;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -114,55 +189,55 @@ body {
 
 /* Larger Image Container */
 .card-img-top-container {
-  height: 75%; 
+  height: 75%;
   overflow: hidden;
 }
 
 .card-img-top {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
   transition: transform 0.3s;
 }
 
 .product-card:hover .card-img-top {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 /* Content Area */
 .card-body {
-  height: 25%; 
+  height: 25%;
   padding: 10px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
 }
 
 .card-title, .card-text, .card-price {
-  text-align: center; 
+  text-align: center;
 }
 
 .card-title {
   color: var(--TextColor);
-  font-size: 1em; 
+  font-size: 1em;
 }
 
 .card-text {
   color: var(--TextSecondary);
   font-size: 0.85rem;
   margin-top: 5px;
-  flex-grow: 1; 
+  flex-grow: 1;
 }
 
 /* Icon Section - Align icons to the right */
 .card-icons {
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-end;
   padding: 5px 0;
   border-top: 1px solid #ddd;
-  width: 100%; 
+  width: 100%;
 }
 
 .cart-icon, .heart-icon {
@@ -170,7 +245,7 @@ body {
   font-size: 1.2rem;
   cursor: pointer;
   transition: color 0.3s;
-  margin-left: 10px; 
+  margin-left: 10px;
 }
 
 .cart-icon:hover, .heart-icon:hover {
@@ -178,7 +253,7 @@ body {
 }
 
 .card-icons > *:first-child {
-  margin-left: 0; 
+  margin-left: 0;
 }
 
 /* Custom Carousel Controls */
