@@ -1,20 +1,34 @@
+body {
+  background-color: #f1f1f1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
 
 .cart-page h2 {
-  font-size: 2rem;
-  color: #333;
+  font-size: 2.5rem;
+  color: #1d1d1f;
+  font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 .cart-item-list {
-  border: 1px solid #ddd;
-  padding: 15px;
-  border-radius: 8px;
-  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  min-height: 300px;
+}
+
+#emptyMessage {
+  color: #a1a1a6;
+  font-style: italic;
 }
 
 .cart-item {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .cart-item:last-child {
@@ -24,55 +38,81 @@
 .cart-item-image {
   width: 80px;
   height: 80px;
-  object-fit: cover;
   border-radius: 8px;
+  object-fit: cover;
+  margin-right: 20px;
 }
 
 .cart-item-title {
   font-size: 1.25rem;
-  color: #333;
+  color: #0071e3;
+  font-weight: 500;
 }
 
 .cart-item-price {
-  color: #777;
+  color: #8e8e93;
+  font-size: 1rem;
   margin: 5px 0;
 }
 
 .cart-item-quantity {
   display: flex;
   align-items: center;
+  margin-top: 10px;
 }
 
 .cart-item-quantity .btn {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  color: #0071e3;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.cart-item-quantity .btn:hover {
+  background-color: #f1f1f1;
 }
 
 .order-summary {
-  background-color: #f8f9fa;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  color: #1d1d1f;
 }
 
 .order-summary h5 {
-  color: #333;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1d1d1f;
 }
 
 .order-item {
   font-size: 1rem;
   margin: 10px 0;
+  color: #8e8e93;
 }
 
 .order-total {
-  font-size: 1.2rem;
-  color: #333;
+  font-size: 1.25rem;
+  color: #0071e3;
+  font-weight: 600;
 }
 
 .order-summary .btn {
   width: 100%;
-  background-color: #007bff;
-  color: #fff;
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #0071e3;
+  border-radius: 8px;
+  border: none;
+  transition: background-color 0.3s ease;
 }
 
 .order-summary .btn:hover {
-  background-color: #0056b3;
+  background-color: #005bb5;
 }
