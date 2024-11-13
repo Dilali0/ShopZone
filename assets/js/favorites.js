@@ -5,15 +5,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const produitExists = favorites.some(item => item.id === produit.id);
     let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
 
-function fetchDataAndRender() {
-    fetch("../../data.json")
-        .then((response) => response.json())
-        .then((data) => {
-        renderProducts(data.products);
-        renderCategories(data.categories);
-        })
-        .catch((error) => console.error("Erreur lors du chargement des données :", error));
+
+
+async function getData() {
+    const response = await fetch("../../Data.json");
+    const data = await response.json();
+    return data;
 }
+
+
 
 function ajouteraufavories(produit) {
     if (!produitExists) {
