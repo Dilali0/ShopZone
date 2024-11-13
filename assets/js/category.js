@@ -1,14 +1,12 @@
-let myProducts = []
+let myProducts = [];
 fetch('../../Data.json')
 .then((response) => response.json())
 .then((data) =>{
     myProducts = data.products;
     displaycategories(myProducts)
+})
 
-} 
- )
 
- 
 function displaycategories(prods){
 const row = document.getElementById("row");
 row.innerHTML = '';
@@ -21,7 +19,7 @@ row.innerHTML += `
                     <h5 class="card-title">${cat.name}</h5>
                     <p>$${cat.price}</p>
                     <p class="card-text"></p>
-                    <a href="#" class="btn btn-primary">Details</a>
+                    <a href="#" class="btn btn-primary" >Details</a>
                     <a href="./favorites.html" class="icon mx-3"><i class="fas fa-heart"></i></a>
                     <a href="./panier.html" class="icon"><i class="fas fa-shopping-cart"></i></a>
                 </div>
@@ -30,6 +28,9 @@ row.innerHTML += `
     `
 })
 };
+
+
+
 
 
 let filtrage = document.getElementById("dropdown");
@@ -73,3 +74,6 @@ function searchByName() {
         displaycategories(myProducts);
     }
 }
+
+
+

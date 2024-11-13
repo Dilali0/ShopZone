@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Soho-Coffee-Table.avif",
+      "name": "Soho Coffee Table.avif",
       "category": "Maison",
       "price": 299.99,
       "image": "../images/Soho-Coffee-Table.avif",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "name": "side_table_natural",
+      "name": "side table natural",
       "category": "Maison",
       "price": 49.99,
       "image": "../images/at1890_nomad_side_table_natural_1_.webp",
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "name": "round-dining-table-6-seater",
+      "name": "round dining table 6 seater",
       "category": "Maison",
       "price": 79.99,
       "image": "../images/round-dining-table-6-seater-1-1-1.jpg",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "name": "Marble-Fruit-Bowl",
+      "name": "Marble Fruit Bowl",
       "category": "Maison",
       "price": 19.99,
       "image": "../images/Creative-Home-White-Marble-Fruit-Bowl-on-Pedestal.webp",
@@ -50,7 +50,7 @@
     },
     {
       "id": 7,
-      "name": "black-glass-shelf-urbanmonk",
+      "name": "black glass shelf urbanmonk",
       "category": "Maison",
       "price": 29.99,
       "image": "../images/bathroom-9-c-9-inch-black-glass-shelf-urbanmonk-original-imagcy3hhvzgqwuc.webp",
@@ -58,7 +58,7 @@
     },
     {
       "id": 8,
-      "name": "Led-mirror-banner",
+      "name": "Led mirror banner",
       "category": "Maison",
       "price": 149.99,
       "image": "../images/Led-mirror-banner-300x300.webp",
@@ -66,7 +66,7 @@
     },
     {
       "id": 9,
-      "name": "gerber-toilets",
+      "name": "gerber toilets",
       "category": "Maison",
       "price": 49.99,
       "image": "../images/gerber-toilets-featured_collections-logan_sqaure.avif",
