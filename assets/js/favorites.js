@@ -5,6 +5,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const produitExists = favorites.some(item => item.id === produit.id);
     let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
 
+function fetchDataAndRender() {
+    fetch("../../data.json")
+        .then((response) => response.json())
+        .then((data) => {
+        renderProducts(data.products);
+        renderCategories(data.categories);
+        })
+        .catch((error) => console.error("Erreur lors du chargement des données :", error));
+}
+
 function ajouteraufavories(produit) {
     if (!produitExists) {
         favorites.push(produit); 
@@ -28,10 +38,10 @@ function affichierFavorites() {
                 <div class="favorite-card">
                     <img src="${product.image}" alt="${product.name}">
                     <h5>${product.name}</h5>
-                    <p>$${product.price.toFixed(2)}</p>
-                    <button class="btn btn-outline-danger btn-sm" onclick="removeFromFavorites(${product.id})"><i class="fas fa-heart-broken"></i> Retirer</button>
-                <button class="btn btn-outline btn-sm" onclick="addToCart(${product.id})"><i class="fas fa-shopping-cart"></i> Ajouter Au panier</button>
-            </div>
+                    <p>$${product.price}</p>
+                    <button class="btn btn-outline-danger btn-sm" onclick="supprimerdefavories(${product.id})"><i class="fas fa-heart-broken"></i> Retirer</button>
+                    <button class="btn btn-outline btn-sm" onclick="addToCart(${product.id})"><i class="fas fa-shopping-cart"></i> Ajouter Au panier</button>
+                </div>
             `;
             favoritespage.innerHTML += favoritCard;
         });
