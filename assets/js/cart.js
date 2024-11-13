@@ -67,7 +67,7 @@ function removeProduct(productId) {
 
 //----Resummer de la commande ----------
 function Commande(){
-  let items = document.getElementById("items") ;
+let items = document.getElementById("items") ;
 let sousTotal = document.getElementById("sousTotal");
 let Total = document.getElementById("total") ;
 let livraison = document.getElementById("livraison").textContent ;
