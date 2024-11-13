@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catégories</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="../css/all.min.css">
-    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/category.css">
+    <link rel="stylesheet" href="../js/category.js">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/all.css">
 </head>
 <body>
 
@@ -32,53 +32,33 @@
 </header>
 
 <!-- Category Header with Dropdown -->
-<section id="category-hero" class="text-center py-5" style="background-color: #f8f9fa;">
+<section id="category-hero" class="text-center py-5" style="background-color: #d3d1cf;">
     <div class="container">
         <h1 class="display-4">Catégories de Produits</h1>
         <p class="lead">Explorez une variété de catégories pour trouver ce que vous recherchez.</p>
-        <div class="dropdown my-4">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="categoryDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                Sélectionnez une catégorie
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
-                <li><a class="dropdown-item" href="#">Électronique</a></li>
-                <li><a class="dropdown-item" href="#">Accessoires</a></li>
-                <li><a class="dropdown-item" href="#">Maison</a></li>
-                <li><a class="dropdown-item" href="#">Mode</a></li>
-                <li><a class="dropdown-item" href="#">Sport</a></li>
-                <li><a class="dropdown-item" href="#">Autres</a></li>
-            </ul>
+        <div class="search-bar d-flex align-items-center">
+            <!-- dropdown start -->
+             <select name="catégories" id="dropdown">
+                <option value="All">All</option>
+                <option value="Maison">Maison</option>
+                <option value="Électronique">Électronique</option>
+                <option value="Mode">Mode</option>
+             </select>
+             <!-- dopdown ends -->
+             <!-- search box input start-->
+              <div class="search-box d-flex align-items-center">
+                <input type="text" id="search-input" placeholder="search..." onkeyup="searchByName()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <!-- search box input ends -->
         </div>
+             <!-- search bar ends -->
     </div>
 </section>
 
-<section class="category-grid my-5">
+<section class="category-grid my-5 ">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="card category-card">
-                    <img src="./assets/images/electronics.jpg" class="card-img-top" alt="Électronique">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Électronique</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card category-card">
-                    <img src="./assets/images/accessories.jpg" class="card-img-top" alt="Accessoires">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Accessoires</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card category-card">
-                    <img src="./assets/images/home.jpg" class="card-img-top" alt="Maison">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Maison</h5>
-                    </div>
-                </div>
-            </div>
+        <div class="row" id="row">
         </div>
     </div>
 </section>
@@ -87,6 +67,6 @@
     <p>&copy; 2024 ShopZone. Tous droits réservés.</p>
 </footer>
 
-<script src="../js/bootstrap.js"></script>
+<script src="../js/category.js"></script>
 </body>
 </html>

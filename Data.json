@@ -2,58 +2,218 @@
   "products": [
     {
       "id": 1,
-      "name": "Iphone 14",
-      "category": "Électronique",
+      "name": "Soho Coffee Table.avif",
+      "category": "Maison",
       "price": 299.99,
-      "image": "https://i.ibb.co/GvcwLhn/maxresdefault.jpg",
-      "description": "Un smartphone puissant avec un écran AMOLED ."
+      "image": "../images/Soho-Coffee-Table.avif",
+      "description": "Un smartphone puissant avec un écran AMOLED et une batterie longue durée."
     },
     {
       "id": 2,
-      "name": "Casque Bluetooth",
-      "category": "Électronique",
+      "name": "side table natural",
+      "category": "Maison",
       "price": 49.99,
-      "image": "https://i.ibb.co/yFykJpQ/10.webp",
-      "description": "Casque sans fil avec réduction de bruit."
+      "image": "../images/at1890_nomad_side_table_natural_1_.webp",
+      "description": "Casque sans fil avec réduction de bruit et qualité sonore exceptionnelle."
     },
     {
       "id": 3,
-      "name": "Sac à main en cuir",
-      "category": "Mode",
+      "name": "round dining table 6 seater",
+      "category": "Maison",
       "price": 79.99,
-      "image": "https://i.ibb.co/y6v7xC0/images.jpg",
+      "image": "../images/round-dining-table-6-seater-1-1-1.jpg",
       "description": "Sac élégant en cuir véritable pour un style intemporel."
     },
     {
       "id": 4,
-      "name": "Table basse en bois",
+      "name": "Marble Fruit Bowl",
       "category": "Maison",
-      "price": 119.99,
-      "image": "images/table-basse-bois.jpg",
-      "description": "Table basse en bois massif, idéale pour un salon moderne."
-    },
-    {
-      "id": 5,
-      "name": "Montre sportive",
-      "category": "Électronique",
-      "price": 199.99,
-      "image": "images/montre-sportive.jpg",
+      "price": 19.99,
+      "image": "../images/Creative-Home-White-Marble-Fruit-Bowl-on-Pedestal.webp",
       "description": "Montre connectée avec suivi d'activité et étanchéité."
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Lampadaire moderne",
       "category": "Maison",
       "price": 89.99,
-      "image": "images/lampadaire-moderne.jpg",
+      "image": "../images/61l-5HR69SL.jpg",
       "description": "Lampadaire avec design minimaliste pour éclairer votre intérieur."
     },
     {
-      "id": 7,
-      "name": "T-shirt basique",
-      "category": "Mode",
+      "id": 6,
+      "name": " kitcheen",
+      "category": "Maison",
       "price": 14.99,
-      "image": "images/tshirt-basique.jpg",
+      "image": "../images/images.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 7,
+      "name": "black glass shelf urbanmonk",
+      "category": "Maison",
+      "price": 29.99,
+      "image": "../images/bathroom-9-c-9-inch-black-glass-shelf-urbanmonk-original-imagcy3hhvzgqwuc.webp",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 8,
+      "name": "Led mirror banner",
+      "category": "Maison",
+      "price": 149.99,
+      "image": "../images/Led-mirror-banner-300x300.webp",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 9,
+      "name": "gerber toilets",
+      "category": "Maison",
+      "price": 49.99,
+      "image": "../images/gerber-toilets-featured_collections-logan_sqaure.avif",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 10,
+      "name": "speed tester",
+      "category": "Électronique",
+      "price": 499.99,
+      "image": "../images/Capture d'écran 2024-11-06 215506.png",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 11,
+      "name": "Corpseed",
+      "category": "Électronique",
+      "price": 349.99,
+      "image": "../images/EPR_Registration_for_Sports_Equipment_with_Electric_or_Electronic_Components_Corpseed.webp",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 12,
+      "name": "fitnes",
+      "category": "Électronique",
+      "price": 49.99,
+      "image": "../images/Fitnees product electronique.png",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 13,
+      "name": "Air Fire",
+      "category": "Électronique",
+      "price": 49.99,
+      "image": "../images/air fire.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 14,
+      "name": "Panasonic NN-SN966S",
+      "category": "Électronique",
+      "price": 149.99,
+      "image": "../images/Panasonic NN-SN966S.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 15,
+      "name": "Blenders",
+      "category": "Électronique",
+      "price": 39.99,
+      "image": "../images/Blenders.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 16,
+      "name": "Imac",
+      "category": "Électronique",
+      "price": 999,
+      "image": "../images/mac-card-40-imac-202410.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 17,
+      "name": "iphone 16",
+      "category": "Électronique",
+      "price": 799,
+      "image": "../images/iphone-card-40-iphone16hero-202409.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 18,
+      "name": "Apple Watch Ultra 2",
+      "category": "Électronique",
+      "price": 49.99,
+      "image": "../images/watch-card-40-ultra2-202409.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 19,
+      "name": "Pantalons Jeans",
+      "category": "Mode",
+      "price": 29.99,
+      "image": "../images/download.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 20,
+      "name": "pantalon de jogging",
+      "category": "Mode",
+      "price": 22,
+      "image": "../images/pantalon-de-jogging-500-homme-bleu-marine.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 21,
+      "name": "Survetement",
+      "category": "Mode",
+      "price": 59.99,
+      "image": "../images/surv-101-600x600.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 22,
+      "name": "Monteaux",
+      "category": "Mode",
+      "price": 70,
+      "image": "../images/monteaux.png",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 23,
+      "name": "Manteaux parkas",
+      "category": "Mode",
+      "price": 50,
+      "image": "../images/Manteaux parkas.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 24,
+      "name": "Veste",
+      "category": "Mode",
+      "price": 49.99,
+      "image": "../images/Veste-homme-chic-600x600.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 25,
+      "name": "t-shirt",
+      "category": "Mode",
+      "price": 4,
+      "image": "../images/t-shirt black.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 26,
+      "name": "Custom T-shirt",
+      "category": "Mode",
+      "price": 20,
+      "image": "../images/Baby-Pink-T-shirt_599c6286-77e0-45aa-9ea3-ab92f4e2bea1.jpg",
+      "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
+    },
+    {
+      "id": 27,
+      "name": "Cusual t-shirt",
+      "category": "Mode",
+      "price": 120,
+      "image": "../images/71m9WF9C2lL._AC_SL1300_.jpg",
       "description": "T-shirt en coton de haute qualité, disponible en plusieurs couleurs."
     }
   ],
