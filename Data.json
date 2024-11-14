@@ -7,45 +7,47 @@
       "price": 299.99,
       "image": "https://i.ibb.co/KqWqtjp/Soho-Coffee-Table.jpg",
       "description": "Table basse élégante en bois massif pour un salon moderne."
-    },
-    {
+    },  
+     {
       "id": 2,
-      "name": "side table natural",
+      "name": "Marble Fruit Bowl",
       "category": "Maison",
-      "price": 49.99,
-      "image": "https://i.ibb.co/xLzF7QT/at1890-nomad-side-table-natural-1.webp",
-      "description": "Petite table d'appoint en bois naturel, idéale pour les petits espaces."
+      "price": 190.99,
+      "image": "https://i.ibb.co/TTtSpj4/millesi-crema-marfil-marble-large-fruit-bowl-p5313-34582-image.jpg",
+      "description": "Bol en marbre raffiné pour présenter vos fruits ou vos décorations."
     },
+   
     {
       "id": 3,
       "name": "round dining table 6 seater",
       "category": "Maison",
-      "price": 79.99,
+      "price": 790.99,
       "image": "https://i.ibb.co/G7xSB65/maison.webp",
       "description": "Grande table à manger ronde, parfaite pour des repas conviviaux."
-    },
-    {
+    },  
+     {
       "id": 4,
-      "name": "Marble Fruit Bowl",
+      "name": "Lampadaire moderne",
       "category": "Maison",
-      "price": 19.99,
-      "image": "https://i.ibb.co/nCX3MTH/Creative-Home-White-Marble-Fruit-Bowl-on-Pedestal.webp",
-      "description": "Bol en marbre raffiné pour présenter vos fruits ou vos décorations."
+      "price": 119.99,
+      "image": "https://i.ibb.co/XDrNWnH/lampadaire-design-en-metal-gris-naturel-h-152-cm-globe.jpg",
+      "description": "Lampadaire au design moderne pour illuminer élégamment votre espace."
     },
     {
       "id": 5,
-      "name": "Lampadaire moderne",
+      "name": "side table natural",
       "category": "Maison",
-      "price": 89.99,
-      "image": "../images/61l-5HR69SL.jpg",
-      "description": "Lampadaire au design moderne pour illuminer élégamment votre espace."
+      "price": 490.99,
+      "image": "https://i.ibb.co/xLzF7QT/at1890-nomad-side-table-natural-1.webp",
+      "description": "Petite table d'appoint en bois naturel, idéale pour les petits espaces."
     },
+ 
     {
       "id": 6,
       "name": "kitcheen",
       "category": "Maison",
-      "price": 14.99,
-      "image": "../images/images.jpg",
+      "price": 40.99,
+      "image": "https://i.ibb.co/b10wBqv/71rc-Vowut-IL-AC-UF350-350-QL80.jpg",
       "description": "Accessoire de cuisine pratique et résistant pour un usage quotidien."
     },
     {
@@ -53,7 +55,7 @@
       "name": "black glass shelf urbanmonk",
       "category": "Maison",
       "price": 29.99,
-      "image": "../images/bathroom-9-c-9-inch-black-glass-shelf-urbanmonk-original-imagcy3hhvzgqwuc.webp",
+      "image": "https://i.ibb.co/4grHp6F/bathroom-9-c-9-inch-black-glass-shelf-urbanmonk-original-imagcy3hhvzgqwuc.webp",
       "description": "Étagère en verre noir moderne pour ajouter du style à votre intérieur."
     },
     {
@@ -61,7 +63,7 @@
       "name": "Led mirror banner",
       "category": "Maison",
       "price": 149.99,
-      "image": "../images/Led-mirror-banner-300x300.webp",
+      "image": "https://i.ibb.co/s1JJMmh/merr.webp",
       "description": "Miroir LED pour un éclairage parfait dans la salle de bains ou la chambre."
     },
     {
@@ -69,23 +71,23 @@
       "name": "gerber toilets",
       "category": "Maison",
       "price": 49.99,
-      "image": "../images/gerber-toilets-featured_collections-logan_sqaure.avif",
+      "image": "https://i.ibb.co/QJds4YJ/media.webp",
       "description": "Toilette moderne et élégante, facile à entretenir et à installer."
     },
     {
       "id": 10,
-      "name": "speed tester",
+      "name": "iphone 14",
       "category": "Électronique",
       "price": 499.99,
-      "image": "../images/Capture d'écran 2024-11-06 215506.png",
+      "image": "https://i.ibb.co/rfkGW4j/ip.webp",
       "description": "Outil de test de vitesse pour évaluer la performance de vos appareils."
     },
     {
       "id": 11,
-      "name": "Corpseed",
+      "name": "AirPods",
       "category": "Électronique",
       "price": 349.99,
-      "image": "../images/EPR_Registration_for_Sports_Equipment_with_Electric_or_Electronic_Components_Corpseed.webp",
+      "image": "https://i.ibb.co/6YhB9fW/1366-2000.jpg",
       "description": "Équipement électronique de pointe pour les amateurs de sport."
     },
     {
@@ -93,7 +95,7 @@
       "name": "iPhone 16",
       "category": "Électronique",
       "price": 799.99,
-      "image": "../images/iphone-card-40-iphone16hero-202409.jpg",
+      "image": "",
       "description": "Le tout nouvel iPhone avec des performances améliorées et un design élégant."
     },
     {
@@ -101,7 +103,7 @@
       "name": "iPad Pro",
       "category": "Électronique",
       "price": 999.99,
-      "image": "../images/ipad-pro.jpg",
+      "image": "https://i.ibb.co/4mzm5Lj/ipad.webp",
       "description": "iPad Pro ultra-puissant avec écran haute résolution pour les professionnels."
     },
     {
@@ -117,7 +119,7 @@
       "name": "MacBook Air M2",
       "category": "Électronique",
       "price": 1199.99,
-      "image": "../images/macbook-air-m2.jpg",
+      "image": "https://i.ibb.co/cbqVFt2/mqkr3fn-a-2.jpg",
       "description": "Ordinateur portable MacBook Air avec puce M2 pour une performance optimale."
     },
     {
@@ -125,7 +127,7 @@
       "name": "Blenders",
       "category": "Électronique",
       "price": 39.99,
-      "image": "../images/Blenders.jpg",
+      "image": "https://i.ibb.co/x733Y9d/104252-980-meilleurs-blender-chauffant.png",
       "description": "Blender puissant pour préparer des smoothies et autres boissons saines."
     },
     {
@@ -133,7 +135,7 @@
       "name": "Pantalons Jeans",
       "category": "Mode",
       "price": 29.99,
-      "image": "../images/download.jpg",
+      "image": "https://i.ibb.co/mzhQzPJ/images-1.jpg",
       "description": "Jeans confortable et stylé pour un look décontracté."
     },
     {
@@ -141,7 +143,7 @@
       "name": "pantalon de jogging",
       "category": "Mode",
       "price": 22.00,
-      "image": "../images/pantalon-de-jogging-500-homme-bleu-marine.jpg",
+      "image": "https://i.ibb.co/59Zk0FY/images-2.jpg",
       "description": "Pantalon de jogging parfait pour le sport ou les moments de détente."
     },
     {
@@ -149,7 +151,7 @@
       "name": "Survetement",
       "category": "Mode",
       "price": 59.99,
-      "image": "../images/surv-101-600x600.jpg",
+      "image": "https://i.ibb.co/KyGqsYd/lp.jpg",
       "description": "Survêtement confortable pour un style sportif et moderne."
     },
     {
@@ -157,7 +159,7 @@
       "name": "Monteaux",
       "category": "Mode",
       "price": 70.00,
-      "image": "../images/monteaux.png",
+      "image": "https://i.ibb.co/tBLHRk6/CBV26-2-ZC1-large.webp",
       "description": "Manteau élégant pour les jours plus frais."
     },
     {
@@ -165,7 +167,7 @@
       "name": "Manteaux parkas",
       "category": "Mode",
       "price": 50.00,
-      "image": "../images/Manteaux parkas.jpg",
+      "image": "https://i.ibb.co/Nr37MgY/parka-frica-camelpp.jpg",
       "description": "Parka chaude et durable pour affronter l'hiver avec style."
     },
     {
@@ -173,7 +175,7 @@
       "name": "Veste",
       "category": "Mode",
       "price": 49.99,
-      "image": "../images/Veste-homme-chic-600x600.jpg",
+      "image": "https://i.ibb.co/HHXP8j9/vest.webp",
       "description": "Veste chic et intemporelle pour un look élégant."
     }
   ],

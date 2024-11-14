@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catégories</title>
-    <link rel="stylesheet" href="../css/category.css">
+    <link rel="stylesheet" href="../css/category.css"> 
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../js/category.js">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/all.css">
@@ -24,7 +25,10 @@
             </div>
             <div class="d-flex">
                 <a href="./favorites.html" class="icon mx-3"><i class="fas fa-heart"></i></a>
-                <a href="./panier.html" class="icon"><i class="fas fa-shopping-cart"></i></a>
+                <a href="./panier.html" class="icon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                      <span class="cart-count badge bg-danger rounded-pill" id="itemsCount">0</span>
+                  </a>
             </div>
         </div>
     </nav>
@@ -67,5 +71,6 @@
 </footer>
 
 <script src="../js/category.js"></script>
+<script src="../js/script.js"></script>
 </body>
 </html>

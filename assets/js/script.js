@@ -31,21 +31,20 @@ function displayProducts(products) {
     const productCard = document.createElement("div");
     productCard.className = "col-md-3";
     productCard.innerHTML = `
-                    <div class="card product-card">
-                        <div class="card-img-top-container">
-                            <img src="${product.image}" class="card-img-top" alt="${product.name}" width="100%" >
-                        </div>
-                        <div class="card-body text-center">
-                        <h5 class="card-title">${product.name}</h5>
-                        <p class="card-text">${product.description}</p>
-                        <h6 class="card-price">${product.price} Mad</h6>
-
-                        </div>
-                        <div class="card-icons d-flex justify-content-center">
-                            <button onclick="addItemToCart(${product.id}, '${product.name}', '${product.price}', '${product.image}')" class="btn cart-icon"><i class="fas fa-shopping-cart"></i></button>
-                            <button class="btn ms-2 heart-icon"><i class="fas fa-heart"></i></button>
-                        </div>
+                   <div class="card product-card">
+                     <div class="card-img-top-container">
+                       <img src="${product.image}" class="card-img-top" alt="${product.name}" width="100%" />
                     </div>
+                   <div class="card-body text-center">
+                   <h5 class="card-title">${product.name}</h5>
+                    <p class="card-text">${product.description}</p>
+                    <h6 class="card-price">${product.price} Mad</h6>
+                </div>
+                <div class="card-icons d-flex justify-content-center">
+                    <button onclick="addItemToCart(${product.id}, '${product.name}', '${product.price}', '${product.image}')" class="btn cart-icon"><i class="fas fa-shopping-cart"></i></button>
+                    <button onclick="addItemToFavorites(${product.id}, '${product.name}', '${product.price}', '${product.image}')" class="btn ms-2 heart-icon"><i class="fas fa-heart"></i></button>
+                </div>
+            </div>
 
     `;
     row.appendChild(productCard);
@@ -81,4 +80,17 @@ function updateNombreCart(){
    const product_nombre = document.getElementById("itemsCount");
    product_nombre.textContent = JSON.parse(localStorage.getItem("cart")).length
 
+}
+function addItemToFavorites(productId, productName, productPrice, productImage) {
+  let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+
+  if (!favorites.some(item => item.id === productId)) {
+    favorites.push({
+      id: productId,
+      name: productName,
+      price: productPrice,
+      image: productImage
+    });
+    localStorage.setItem("favorites", JSON.stringify(favorites));
+  } 
 }
