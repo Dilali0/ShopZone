@@ -1,0 +1,86 @@
+/* General Styling */
+:root {
+  --primary-color: #333;
+  --secondary-color: #888;
+  --accent-color: rgb(253, 217, 174);
+  --shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: var(--primary-color);
+  background-color: #f8f9fa;
+}
+
+/* Section Styling */
+.coverpic1 {
+  background-size: cover;
+}
+
+/* Search Bar Styling */
+.search-bar {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: var(--shadow);
+  margin: 2rem auto 0;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+#sorting {
+  width: 150px;
+  border: none;
+  border-radius: 30px;
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  font-weight: bold;
+  appearance: none;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: background-color 0.3s;
+}
+
+#sorting:hover {
+  background-color: #f8f9fa;
+}
+
+/* Search Box Styling */
+.search-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 30px;
+  background-color: #f1f1f1;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  background: none;
+}
+
+.search-box input::placeholder {
+  color: var(--secondary-color);
+}
+
+.search-box i {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.search-box i:hover {
+  color: var(--primary-color);
+}

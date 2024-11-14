@@ -1,84 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shopezone</title>
-  <link rel="stylesheet" href="assets/css/bootstrap.css">
-  <link rel="stylesheet" href="assets/css/all.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produits</title>
+    <link rel="stylesheet" href="../css/all.css" />
+    <link rel="stylesheet" href="../css/product.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="logo" href="../../index.html">ShopZone</a>
+          <div class="collapse navbar-collapse justify-content-center">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Produit.html">Produits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Cetagory.html">Catégories</a>
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex">
+            <a href="./favorites.html" class="icon mx-3"
+              ><i class="fas fa-heart"></i
+            ></a>
+            <a href="./panier.html" class="icon">
+              <i class="fa-solid fa-bag-shopping"></i>
+                <span class="cart-count badge bg-danger rounded-pill" id="itemsCount">0</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section
+      id="details1"
+      class="coverpic1 text-center py-5"
+      style="background-color: #f8f9fa"
+    >
       <div class="container">
-        <a class="navbar-brand" href="../../index.html">Shopezone</a>
-        <div class="navbar-collapse justify-content-center">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="../../index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="./Produit.html">Products</a></li>
-            <li class="nav-item"><a class="nav-link" href="./Cetagory.html">Categories</a></li>
-          </ul>
-        </div>
-        <div class="navbar-icons d-flex">
-          <a href="./panier.html" class="nav-link"><i class="fas fa-shopping-cart"></i></a>
-          <a href="./favories.html" class="nav-link"><i class="fas fa-heart"></i></a>
-        </div>
+        <h1 class="display-4">Nos Produits</h1>
+        <p class="lead">Découvrez nos derniers produits de haute qualité.</p>
       </div>
-    </nav>
-  </header>
-
-  <section id="hero" class="d-flex align-items-center justify-content-center">
-    <img src="assets/images/hero-section.jpg" alt="Hero Image" class="img-fluid w-100">
-  </section>
-
-  <section id="popular-products" class="py-5">
-    <div class="container">
-      <h2 class="text-center mb-4">Popular Products</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <img src="assets/images/product1.jpg" class="card-img-top" alt="Product 1">
-            <div class="card-body text-center">
-              <h5 class="card-title">Product Name</h5>
-              <p class="card-text">$29.99</p>
-              <a href="#" class="btn btn-primary">Add to Cart</a>
-            </div>
-          </div>
+      <div class="search-bar d-flex align-items-center ">
+        <select name="sort" id="sorting">
+          <option value="all">tout</option>
+          <option id="price" value="prix">prix</option>
+          <option id="pop" value="pop">popularité</option>
+        </select>
+        <!-- search box input start-->
+        <div class="search-box d-flex align-items-center">
+          <input
+            type="text"
+            id="search-input lg-3"
+            placeholder="search..."
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
         </div>
+        <!-- search box input ends -->
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="categories" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center mb-4">Categories</h2>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="card text-center">
-            <img src="assets/images/category1.jpg" class="card-img-top" alt="Category 1">
-            <div class="card-body">
-              <h5 class="card-title">Category Name</h5>
-              <a href="#" class="btn btn-outline-dark">Shop Now</a>
-            </div>
-          </div>
-        </div>
+    <section class="featured-products my-5">
+      <div class="container">
+        <div class="sorticon"></div>
+        <div class="row" id="row1"></div>
       </div>
-    </div>
-  </section>
+    </section>
+    <footer class="bg-light text-center py-4">
+      <p>&copy; 2024 ShopZone. Tous droits réservés.</p>
+    </footer>
 
-  <footer class="footer bg-dark text-white py-4">
-    <div class="container text-center">
-      <p class="mb-0">© 2024 Shopezone | <a href="./assets/pages/About.html" class="text-white">About Us</a></p>
-      <ul class="footer-social list-inline mt-2">
-        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f text-white"></i></a></li>
-        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter text-white"></i></a></li>
-        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram text-white"></i></a></li>
-      </ul>
-    </div>
-  </footer>
-
-  <script src="assets/js/bootstrap.js"></script>
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-</body>
+    <script src="../js/products.js"></script>
+    <script src="../js/script.js"></script>
+    
+  </body>
 </html>
